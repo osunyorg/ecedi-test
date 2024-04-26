@@ -101,19 +101,28 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Actualités
+      Accueil
     ranks:
       self: 2
+      children: 3
     data:
       page: 
-        path: "/actualites/"
-        slug: "actualites"
-        file: "posts/_index.html"
+        path: "/"
+        slug: ""
+        file: "pages/_index.html"
       show_main_description: false
       show_descriptions: false
       show_images: false
       layout: list
       pages:
+        - path: "/accessibilite/"
+          slug: "accessibilite"
+          file: "pages/accessibilite/_index.html"
+          external: false
+        - path: "/projets/"
+          slug: "projets"
+          file: "projects/_index.html"
+          external: false
 
 
 
