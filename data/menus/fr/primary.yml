@@ -21,4 +21,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: Test page API
+  target: "/test-page-api/"
+  kind: page
+  children: []
 
