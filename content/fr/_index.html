@@ -51,13 +51,15 @@ header_cta:
   target: "#"
   external: true
 contents_reading_time:
-  seconds: 23
+  seconds: 26
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: embed
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -77,6 +79,8 @@ contents:
     template: features
     title: >-
       Ceci est le titre du bloc "Fonctionnalités"
+    slug: >-
+      ceci-est-le-titre-du-bloc-fonctionnalites
     ranks:
       self: 2
       children: 3
@@ -116,19 +120,27 @@ contents:
 
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Test titre section
-    slug: "test-titre-section"
-    position: 1
-    rank: 2
+    slug: >-
+      test-titre-section
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Agenda
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/agenda/"
@@ -155,6 +167,8 @@ contents:
     template: key_figures
     title: >-
       Chiffres clés
+    slug: >-
+      chiffres-cles
     ranks:
       self: 3
     data:
@@ -167,7 +181,7 @@ contents:
             ans
 
           description: >-
-            <p>déjà</p>
+            déjà
 
 
         - number: 12658
@@ -175,7 +189,7 @@ contents:
             Sites
 
           description: >-
-            <p>produit</p>
+            produit
 
           image:
             id: "94236e3c-9745-4d31-8753-e89eb0b856f9"
@@ -186,7 +200,7 @@ contents:
             chiffre
 
           description: >-
-            <p>clé</p>
+            clé
 
 
 
@@ -195,6 +209,8 @@ contents:
     template: testimonials
     title: >-
       Citation
+    slug: >-
+      citation
     ranks:
       self: 3
     data:
@@ -207,7 +223,6 @@ contents:
 
           job: >-
             
-
 
 
 

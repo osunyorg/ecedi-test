@@ -43,7 +43,7 @@ summary: >-
   <p>Résumé Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
 contents_reading_time:
-  seconds: 130
+  seconds: 115
   text: >-
     2 minutes
 contents:
@@ -51,6 +51,8 @@ contents:
     template: key_figures
     title: >-
       Titre
+    slug: >-
+      titre
     ranks:
       self: 2
     data:
@@ -63,7 +65,7 @@ contents:
             %
 
           description: >-
-            <p>Lorem ipsum dolor sit amet, </p>
+            Lorem ipsum dolor sit amet,
 
           image:
             id: "50e1f533-2559-4837-9585-7f5b7c40617e"
@@ -74,7 +76,7 @@ contents:
             %
 
           description: >-
-            <p>Lorem ipsum dolor sit amet.</p>
+            Lorem ipsum dolor sit amet.
 
 
 
@@ -82,6 +84,8 @@ contents:
   - kind: block
     template: timeline
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -115,16 +119,24 @@ contents:
 
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Test ajout titre
-    slug: "test-ajout-titre"
-    position: 1
-    rank: 2
+    slug: >-
+      test-ajout-titre
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: image
     title: >-
       Test block image
+    slug: >-
+      test-block-image
     ranks:
       self: 3
     data:
@@ -146,6 +158,8 @@ contents:
   - kind: block
     template: testimonials
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -169,7 +183,6 @@ contents:
 
           job: >-
             Métier de l'auteur·e 2
-
 
 
 
