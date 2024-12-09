@@ -7,9 +7,14 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      linkedin: >-
-        https://www.linkedin.com/company/ecedi/mycompany/
+    contact_details:
+      social_networks:
+        linkedin:
+          label: >-
+            ecedimycompany
+          value: >-
+            https://www.linkedin.com/company/ecedi/mycompany/
+
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
