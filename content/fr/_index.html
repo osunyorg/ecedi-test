@@ -69,7 +69,9 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 2
+    top:
+      active: false
     data:
       code: >-
         
@@ -89,8 +91,17 @@ contents:
     slug: >-
       ceci-est-le-titre-du-bloc-fonctionnalites
     ranks:
+      base: 2
       self: 2
       children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Ceci est le titre du bloc "Fonctionnalités"
+        heading: 2
+      description: >-
+        <p>Teaser ? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aperiam consequuntur cumque dolore eligendi est et illo ipsum magnam maiores maxime necessitatibus nisi, obcaecati omnis possimus recusandae repellat, suscipit!</p>
     data:
       description: >-
         <p>Teaser ? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aperiam consequuntur cumque dolore eligendi est et illo ipsum magnam maiores maxime necessitatibus nisi, obcaecati omnis possimus recusandae repellat, suscipit!</p>
@@ -134,7 +145,14 @@ contents:
     slug: >-
       test-titre-section
     ranks:
+      base: 2
       self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Test titre section
+        heading: 2
     data:
       layout: classic
 
@@ -146,8 +164,14 @@ contents:
     slug: >-
       
     ranks:
-      self: 2
+      base: 3
       children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Agenda
+        heading: 3
     data:
       page:
         permalink: "/agenda/"
@@ -179,7 +203,14 @@ contents:
     slug: >-
       chiffres-cles
     ranks:
+      base: 3
       self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Chiffres clés
+        heading: 3
     data:
       description: >-
         
@@ -221,7 +252,15 @@ contents:
     slug: >-
       citation
     ranks:
+      base: 3
       self: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Citation
+        heading: 3
+        screen_reader_only: true
     data:
       testimonials:
         - text: >-
