@@ -2,6 +2,11 @@
 
 baseURL: https://test.ecedi.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: f71dd3dd-958f-4258-9be2-cc74021852a8
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
