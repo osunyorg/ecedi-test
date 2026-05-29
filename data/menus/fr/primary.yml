@@ -46,24 +46,6 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
-- title: Test page API
-  slug: test-page-api
-  target: "/test-page-api/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/test-page-api"
-  file: content/fr/pages/test-page-api/_index.html
-- title: Expositions
-  slug: expositions
-  target: "/expositions/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
 - title: Conseil en stratégie digitale
   slug: conseil-en-strategie-digitale
   target: "/conseil-en-strategie-digitale/"
@@ -73,15 +55,6 @@ items:
   descendants_targets: []
   path: "/pages/conseil-en-strategie-digitale"
   file: content/fr/pages/conseil-en-strategie-digitale/_index.html
-- title: Déploiement de services numériques
-  slug: deploiement-de-services-numeriques
-  target: "/deploiement-de-services-numeriques/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/deploiement-de-services-numeriques"
-  file: content/fr/pages/deploiement-de-services-numeriques/_index.html
 - title: Data, IA et automatisation
   slug: data-ia-et-automatisation
   target: "/data-ia-et-automatisation/"
@@ -91,24 +64,6 @@ items:
   descendants_targets: []
   path: "/pages/data-ia-et-automatisation"
   file: content/fr/pages/data-ia-et-automatisation/_index.html
-- title: Hébergement
-  slug: hebergement
-  target: "/hebergement/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/hebergement"
-  file: content/fr/pages/hebergement/_index.html
-- title: Maintenance
-  slug: maintenance
-  target: "/maintenance/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/maintenance"
-  file: content/fr/pages/maintenance/_index.html
 - title: 'Reprise et migration de sites '
   slug: reprise-et-migration-de-sites
   target: "/reprise-et-migration-de-sites/"
