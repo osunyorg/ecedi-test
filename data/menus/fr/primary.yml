@@ -1,15 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Actualités
-  slug: actualites
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Projets
   slug: projets
   target: "/projets/"
@@ -28,60 +19,6 @@ items:
   descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Équipe
-  slug: equipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Organisations
-  slug: organisations
-  target: "/organisations/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/organizations"
-  file: content/fr/organizations/_index.html
-- title: Conseil en stratégie digitale
-  slug: conseil-en-strategie-digitale
-  target: "/conseil-en-strategie-digitale/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/conseil-en-strategie-digitale"
-  file: content/fr/pages/conseil-en-strategie-digitale/_index.html
-- title: Data, IA et automatisation
-  slug: data-ia-et-automatisation
-  target: "/data-ia-et-automatisation/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/data-ia-et-automatisation"
-  file: content/fr/pages/data-ia-et-automatisation/_index.html
-- title: 'Reprise et migration de sites '
-  slug: reprise-et-migration-de-sites
-  target: "/reprise-et-migration-de-sites/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/reprise-et-migration-de-sites"
-  file: content/fr/pages/reprise-et-migration-de-sites/_index.html
-- title: Accessibilité numérique
-  slug: accessibilite-numerique
-  target: "/accessibilite-numerique/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/accessibilite-numerique"
-  file: content/fr/pages/accessibilite-numerique/_index.html
 - title: Formation
   slug: formation
   target: "/formation/"
@@ -91,4 +28,11 @@ items:
   descendants_targets: []
   path: "/pages/formation"
   file: content/fr/pages/formation/_index.html
+- title: L’agence
+  slug: l-agence
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
 
