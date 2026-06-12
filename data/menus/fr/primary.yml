@@ -1,24 +1,20 @@
 ---
 title: Menu principal
 items:
-- title: Projets
-  slug: projets
-  target: "/projets/"
-  kind: page
+- title: L’agence
+  slug: l-agence
+  target: ''
+  kind: blank
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
-- title: Agenda
-  slug: agenda
-  target: "/agenda/"
-  kind: page
+- title: Nos engagements
+  slug: nos-engagements
+  target: ''
+  kind: blank
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/events"
-  file: content/fr/events/_index.html
 - title: Formation
   slug: formation
   target: "/formation/"
@@ -28,8 +24,33 @@ items:
   descendants_targets: []
   path: "/pages/formation"
   file: content/fr/pages/formation/_index.html
-- title: L’agence
-  slug: l-agence
+- title: L'équipe
+  slug: l-equipe
+  target: "/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Maintenance
+  slug: maintenance
+  target: "/maintenance/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/maintenance"
+  file: content/fr/pages/maintenance/_index.html
+- title: Nos expertises
+  slug: nos-expertises
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
+- title: Cas clients / projets / références
+  slug: cas-clients-projets-references
   target: ''
   kind: blank
   new_tab: false
