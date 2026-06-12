@@ -15,33 +15,6 @@ items:
   new_tab: false
   children: []
   descendants_targets: []
-- title: Formation
-  slug: formation
-  target: "/formation/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/formation"
-  file: content/fr/pages/formation/_index.html
-- title: L'équipe
-  slug: l-equipe
-  target: "/equipe/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/fr/persons/_index.html
-- title: Maintenance
-  slug: maintenance
-  target: "/maintenance/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/maintenance"
-  file: content/fr/pages/maintenance/_index.html
 - title: Nos expertises
   slug: nos-expertises
   target: ''
@@ -51,6 +24,20 @@ items:
   descendants_targets: []
 - title: Cas clients / projets / références
   slug: cas-clients-projets-references
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
+- title: Vos enjeux
+  slug: vos-enjeux
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+  descendants_targets: []
+- title: Billets d'experts
+  slug: billets-d-experts
   target: ''
   kind: blank
   new_tab: false
