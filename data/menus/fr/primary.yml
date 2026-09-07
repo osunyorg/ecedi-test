@@ -24,11 +24,13 @@ items:
   descendants_targets: []
 - title: Nos cas clients
   slug: nos-cas-clients
-  target: ''
-  kind: blank
+  target: "/projets/"
+  kind: page
   new_tab: false
   children: []
   descendants_targets: []
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Vos enjeux
   slug: vos-enjeux
   target: ''
