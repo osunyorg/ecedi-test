@@ -1,0 +1,18 @@
+---
+title: Menu supérieur
+items:
+- title: Nous rejoindre
+  slug: nous-rejoindre
+  target: https://ecedi.welcomekit.co/
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
+- title: Nous contacter
+  slug: nous-contacter
+  target: https://www.ecedi.fr/#contact
+  kind: url
+  new_tab: true
+  children: []
+  descendants_targets: []
+
